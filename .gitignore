@@ -1,0 +1,16 @@
+# ignoriere alle Dateien im Verzeichnis "node_modules"
+node_modules
+# ignoriere alle *.log
+*.log
+
+# ignoriere das verz. /build und Dateien darin
+build/
+
+# ignoriere alle .DS_Store-Dateien
+.DS_Store
+
+# ignoriere alle Dateien die mit Unterstrich beginnen
+-*.*
+
+# ignoriere alle .env Dateien
+.env
