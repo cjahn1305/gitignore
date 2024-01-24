@@ -1,16 +1,23 @@
-# ignoriere alle Dateien im Verzeichnis "node_modules"
-node_modules
-# ignoriere alle *.log
-*.log
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# ignoriere das verz. /build und Dateien darin
-build/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# ignoriere alle .DS_Store-Dateien
+# testing
+/coverage
+
+# production
+/build
+
+# misc
 .DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# ignoriere alle Dateien die mit Unterstrich beginnen
--*.*
-
-# ignoriere alle .env Dateien
-.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
